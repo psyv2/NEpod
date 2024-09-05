@@ -1,0 +1,6 @@
+framework module NimbleNetiOS {
+  umbrella header "NimbleNetiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

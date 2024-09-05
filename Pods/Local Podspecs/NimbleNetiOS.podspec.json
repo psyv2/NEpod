@@ -1,0 +1,47 @@
+{
+  "name": "NimbleNetiOS",
+  "version": "20.0.0",
+  "summary": "iOS SDK for NimbleEdge",
+  "swift_versions": "5.0",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/NimbleEdge/NimbleSDKiOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "46650369": "naman.anand@nimbleedgehq.ai"
+  },
+  "source": {
+    "git": "git@github.com:NimbleEdge/NimbleSDKiOS.git",
+    "tag": "20.0.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "nimblenet_ios/Classes/**/*",
+  "public_header_files": [
+    "nimblenet_ios/Classes/sources/objc/**/*.h",
+    "nimblenet_ios/Classes/NimbleNetiOS.h",
+    "nimblenet_ios/Assets/nimblenet.xcframework/ios-arm64/Headers/*.h"
+  ],
+  "ios": {
+    "preserve_paths": [
+      "nimblenet_ios/Assets/nimblenet.xcframework",
+      "nimblenet_ios/Assets/onnxruntime.xcframework"
+    ],
+    "vendored_frameworks": [
+      "nimblenet_ios/Assets/onnxruntime.xcframework",
+      "nimblenet_ios/Assets/nimblenet.xcframework"
+    ]
+  },
+  "dependencies": {
+    "Alamofire": [
+
+    ],
+    "SAMKeychain": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

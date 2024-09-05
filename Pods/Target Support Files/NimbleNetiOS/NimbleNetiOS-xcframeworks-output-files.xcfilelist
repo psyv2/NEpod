@@ -1,0 +1,2 @@
+${PODS_XCFRAMEWORKS_BUILD_DIR}/NimbleNetiOS/onnxruntime.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/NimbleNetiOS/nimblenet.framework
